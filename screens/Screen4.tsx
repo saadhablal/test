@@ -7,7 +7,7 @@ const Screen4 = () => {
       <Image
         style={styles.arrowLeftIcon}
         resizeMode="cover"
-        source={require("../assets/arrowleft.png")}
+        source={require("../public/arrowleft.png")}
       />
       <Text style={styles.enterOTPText}>Enter OTP</Text>
       <View style={styles.cONTINUEView}>
@@ -17,7 +17,7 @@ const Screen4 = () => {
       <Image
         style={styles.groupIcon}
         resizeMode="cover"
-        source={require("../assets/group-5.png")}
+        source={require("../public/group-5.png")}
       />
       <Text style={styles.rESENDText}>RESEND</Text>
     </View>

@@ -7,7 +7,7 @@ const Screen6 = () => {
       <Image
         style={styles.arrowLeftIcon}
         resizeMode="cover"
-        source={require("../assets/arrowleft.png")}
+        source={require("../public/arrowleft.png")}
       />
       <Text style={styles.signUpText}>Sign Up</Text>
       <View style={styles.cONTINUEView}>
@@ -24,7 +24,7 @@ const Screen6 = () => {
         <Image
           style={styles.chevronDownIcon}
           resizeMode="cover"
-          source={require("../assets/chevrondown.png")}
+          source={require("../public/chevrondown.png")}
         />
       </View>
       <View style={styles.fullNameView2}>
@@ -33,7 +33,7 @@ const Screen6 = () => {
         <Image
           style={styles.chevronDownIcon1}
           resizeMode="cover"
-          source={require("../assets/chevrondown.png")}
+          source={require("../public/chevrondown.png")}
         />
       </View>
       <View style={styles.fullNameView3}>
@@ -45,18 +45,18 @@ const Screen6 = () => {
         <Image
           style={styles.illustrationOfGoogleIconOn}
           resizeMode="cover"
-          source={require("../assets/illustrationofgoogleiconontransparentbackgroundpng-22.png")}
+          source={require("../public/illustrationofgoogleiconontransparentbackgroundpng-22.png")}
         />
         <Image
           style={styles.illustrationOfGoogleIconOn1}
           resizeMode="cover"
-          source={require("../assets/illustrationofgoogleiconontransparentbackgroundpng-31.png")}
+          source={require("../public/illustrationofgoogleiconontransparentbackgroundpng-31.png")}
         />
       </View>
       <Image
         style={styles.groupIcon}
         resizeMode="cover"
-        source={require("../assets/group-7.png")}
+        source={require("../public/group-7.png")}
       />
     </View>
   );

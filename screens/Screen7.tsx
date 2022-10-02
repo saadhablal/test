@@ -7,7 +7,7 @@ const Screen7 = () => {
       <Image
         style={styles.rectangleIcon}
         resizeMode="cover"
-        source={require("../assets/rectangle-14.png")}
+        source={require("../public/rectangle-14.png")}
       />
       <Text style={styles.profileText}>Profile</Text>
       <Text style={styles.jenny22Text}>Jenny, 22</Text>
@@ -16,12 +16,12 @@ const Screen7 = () => {
       <Image
         style={styles.arrowLeftIcon}
         resizeMode="cover"
-        source={require("../assets/arrowleft.png")}
+        source={require("../public/arrowleft.png")}
       />
       <Image
         style={styles.groupIcon}
         resizeMode="cover"
-        source={require("../assets/group-13.png")}
+        source={require("../public/group-13.png")}
       />
       <View style={styles.rectangleView} />
       <View style={styles.rectangleView1} />
@@ -62,18 +62,18 @@ const Screen7 = () => {
         <Image
           style={styles.ellipseIcon}
           resizeMode="cover"
-          source={require("../assets/ellipse-3.png")}
+          source={require("../public/ellipse-3.png")}
         />
         <Image
           style={styles.ellipseIcon1}
           resizeMode="cover"
-          source={require("../assets/ellipse-4.png")}
+          source={require("../public/ellipse-4.png")}
         />
       </View>
       <Image
         style={styles.groupIcon1}
         resizeMode="cover"
-        source={require("../assets/group-17.png")}
+        source={require("../public/group-17.png")}
       />
       <Text style={styles.planSettingsText}>Plan Settings</Text>
       <View style={styles.lineView2} />
@@ -88,7 +88,7 @@ const Screen7 = () => {
       <Image
         style={styles.groupIcon2}
         resizeMode="cover"
-        source={require("../assets/group-10.png")}
+        source={require("../public/group-10.png")}
       />
     </View>
   );

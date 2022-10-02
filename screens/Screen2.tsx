@@ -9,7 +9,7 @@ const Screen2 = () => {
         <Image
           style={styles.illustrationOfGoogleIconOn}
           resizeMode="cover"
-          source={require("../assets/illustrationofgoogleiconontransparentbackgroundpng-2.png")}
+          source={require("../public/illustrationofgoogleiconontransparentbackgroundpng-2.png")}
         />
         <Text style={styles.loginWithFacebook}>Login With facebook</Text>
       </View>
@@ -18,7 +18,7 @@ const Screen2 = () => {
         <Image
           style={styles.illustrationOfGoogleIconOn1}
           resizeMode="cover"
-          source={require("../assets/illustrationofgoogleiconontransparentbackgroundpng-21.png")}
+          source={require("../public/illustrationofgoogleiconontransparentbackgroundpng-21.png")}
         />
         <Text style={styles.loginWithGOOGLE}>Login With GOOGLE</Text>
       </View>
@@ -27,7 +27,7 @@ const Screen2 = () => {
         <Image
           style={styles.illustrationOfGoogleIconOn2}
           resizeMode="cover"
-          source={require("../assets/illustrationofgoogleiconontransparentbackgroundpng-3.png")}
+          source={require("../public/illustrationofgoogleiconontransparentbackgroundpng-3.png")}
         />
         <Text style={styles.loginWithPhone}>Login With Phone</Text>
       </View>
@@ -59,7 +59,7 @@ const Screen2 = () => {
       <Image
         style={styles.polygonIcon}
         resizeMode="cover"
-        source={require("../assets/polygon-2.png")}
+        source={require("../public/polygon-2.png")}
       />
     </View>
   );

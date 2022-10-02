@@ -40,12 +40,12 @@ const Screen1 = () => {
       <Image
         style={styles.groupIcon}
         resizeMode="cover"
-        source={require("../assets/group-10.png")}
+        source={require("../public/group-10.png")}
       />
       <Image
         style={styles.iconaddphoto}
         resizeMode="cover"
-        source={require("../assets/iconaddphoto.png")}
+        source={require("../public/iconaddphoto.png")}
       />
       <Text style={styles.aboutText}>About</Text>
       <View style={styles.rectangleView} />
@@ -56,7 +56,7 @@ const Screen1 = () => {
       <Image
         style={styles.navBarIcon}
         resizeMode="cover"
-        source={require("../assets/nav-bar1.png")}
+        source={require("../public/nav-bar1.png")}
       />
     </View>
   );

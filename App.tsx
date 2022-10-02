@@ -27,10 +27,10 @@ const App = () => {
           <Stack.Navigator screenOptions={{ headerShown: false }}>
             <Stack.Screen
               name="Screen"
-              component={Screen}
+              component={Screen9}
               options={{ headerShown: false }}
             />
-            <Stack.Screen
+            {/* <Stack.Screen
               name="Screen1"
               component={Screen1}
               options={{ headerShown: false }}
@@ -79,7 +79,7 @@ const App = () => {
               name="Screen10"
               component={Screen10}
               options={{ headerShown: false }}
-            />
+            /> */}
           </Stack.Navigator>
         ) : (
           <SplashScreen />

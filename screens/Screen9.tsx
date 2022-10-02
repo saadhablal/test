@@ -7,22 +7,22 @@ const Screen9 = () => {
       <View style={styles.rectangleView} />
       <Text style={styles.writeText}>Write</Text>
       <View style={styles.rectangleView1} />
-      <Image
+      {/* <Image
         style={styles.subtractIcon}
         resizeMode="cover"
-        source={require("../assets/subtract.png")}
+        source={require("../public/subtract.png")}
       />
       <Image
         style={styles.groupIcon}
         resizeMode="cover"
-        source={require("../assets/group4.png")}
-      />
+        source={require("../public/group4.png")}
+      /> */}
       <View style={styles.rectangleView2} />
-      <Image
+      {/* <Image
         style={styles.groupIcon1}
         resizeMode="cover"
-        source={require("../assets/group5.png")}
-      />
+        source={require("../public/group5.png")}
+      /> */}
       <View style={styles.rectangleView3} />
       <Text style={styles.maciejkowalskiemailcomText}>
         maciej.kowalski@email.com
@@ -50,16 +50,16 @@ const Screen9 = () => {
       <Text style={styles.fEB1200Text}>1 FEB 12:00</Text>
       <Text style={styles.maciejKowalskiText}>Maciej Kowalski</Text>
       <Text style={styles.martinaWolnaText}>Martina Wolna</Text>
-      <Image
+      {/* <Image
         style={styles.imageIcon}
         resizeMode="cover"
-        source={require("../assets/image7.png")}
+        source={require("../public/image7.png")}
       />
       <Image
         style={styles.arrowLeftIcon}
         resizeMode="cover"
-        source={require("../assets/arrowleft.png")}
-      />
+        source={require("../public/arrowleft.png")}
+      /> */}
     </View>
   );
 };
@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
     left: "10.67%",
     fontSize: 14,
     letterSpacing: 1,
-    fontFamily: "Arima Madurai",
+    //fontFamily: "Arima Madurai",
     color: "rgba(255, 255, 255, 0.6)",
     textAlign: "left",
   },
@@ -147,7 +147,7 @@ const styles = StyleSheet.create({
     textDecoration: "underline",
     letterSpacing: 1,
     fontWeight: "300",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
     display: "flex",
@@ -162,7 +162,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "right",
   },
@@ -182,7 +182,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     letterSpacing: 1,
     fontWeight: "300",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "right",
     display: "flex",
@@ -206,7 +206,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     letterSpacing: 1,
     fontWeight: "300",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "right",
     display: "flex",
@@ -221,7 +221,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "right",
   },
@@ -241,7 +241,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     letterSpacing: 1,
     fontWeight: "300",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
     display: "flex",
@@ -265,7 +265,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     letterSpacing: 1,
     fontWeight: "300",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "right",
     display: "flex",
@@ -289,7 +289,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     letterSpacing: 1,
     fontWeight: "300",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
     display: "flex",
@@ -304,7 +304,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "center",
   },
@@ -315,7 +315,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "right",
   },
@@ -326,7 +326,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "right",
   },

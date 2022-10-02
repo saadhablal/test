@@ -8,7 +8,7 @@ const Screen8 = () => {
       <Image
         style={styles.polygonIcon}
         resizeMode="cover"
-        source={require("../assets/polygon-2.png")}
+        source={require("../public/polygon-2.png")}
       />
     </View>
   );

@@ -7,7 +7,7 @@ const Screen3 = () => {
       <Image
         style={styles.arrowLeftIcon}
         resizeMode="cover"
-        source={require("../assets/arrowleft.png")}
+        source={require("../public/arrowleft.png")}
       />
       <Text style={styles.myNumberIs}>
         <Text style={styles.mText}>M</Text>y number is
@@ -23,7 +23,7 @@ const Screen3 = () => {
           <Image
             style={styles.chevronDownIcon}
             resizeMode="cover"
-            source={require("../assets/chevrondown.png")}
+            source={require("../public/chevrondown.png")}
           />
         </View>
       </View>

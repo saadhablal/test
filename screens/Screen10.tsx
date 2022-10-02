@@ -8,7 +8,7 @@ const Screen10 = () => {
       <Image
         style={styles.imageIcon}
         resizeMode="cover"
-        source={require("../assets/image.png")}
+        source={require("../public/image.png")}
       />
       <Text style={styles.febText}>01 Feb</Text>
       <Text style={styles.marzenaKlasaText}>Marzena Klasa</Text>
@@ -18,26 +18,26 @@ const Screen10 = () => {
       <Image
         style={styles.imageIcon1}
         resizeMode="cover"
-        source={require("../assets/image9.png")}
+        source={require("../public/image9.png")}
       />
       <Text style={styles.kmText}>5km</Text>
       <Text style={styles.jarosawKowalskiText}>jarosław kowalski</Text>
       <Image
         style={styles.groupIcon}
         resizeMode="cover"
-        source={require("../assets/group.png")}
+        source={require("../public/group.png")}
       />
       <Image
         style={styles.imageIcon2}
         resizeMode="cover"
-        source={require("../assets/image2.png")}
+        source={require("../public/image2.png")}
       />
       <Text style={styles.kmText1}>1,3km</Text>
       <Text style={styles.krysiaEurydykaText}>Krysia Eurydyka</Text>
       <Image
         style={styles.imageIcon3}
         resizeMode="cover"
-        source={require("../assets/image11.png")}
+        source={require("../public/image11.png")}
       />
       <View style={styles.groupView}>
         <Text style={styles.jarekkowalemailecomText}>
@@ -49,7 +49,7 @@ const Screen10 = () => {
       <Image
         style={styles.imageIcon4}
         resizeMode="cover"
-        source={require("../assets/image12.png")}
+        source={require("../public/image12.png")}
       />
       <View style={styles.groupView1}>
         <Text style={styles.howIsKoronavirus}>How is koronavirus?</Text>
@@ -59,18 +59,18 @@ const Screen10 = () => {
       <Image
         style={styles.vectorIcon}
         resizeMode="cover"
-        source={require("../assets/vector.png")}
+        source={require("../public/vector.png")}
       />
       <Image
         style={styles.groupIcon1}
         resizeMode="cover"
-        source={require("../assets/group1.png")}
+        source={require("../public/group1.png")}
       />
       <Text style={styles.willDoSuperThankYou}>Will do, super, thank you</Text>
       <Image
         style={styles.imageIcon5}
         resizeMode="cover"
-        source={require("../assets/image5.png")}
+        source={require("../public/image5.png")}
       />
       <Text style={styles.kmText4}>1,1km</Text>
       <Text style={styles.odeuszPiotrowskiText}>Odeusz Piotrowski</Text>
@@ -79,7 +79,7 @@ const Screen10 = () => {
         <Image
           style={styles.imageIcon6}
           resizeMode="cover"
-          source={require("../assets/image14.png")}
+          source={require("../public/image14.png")}
         />
         <Text style={styles.kmText5}>1km</Text>
         <Text style={styles.boenkaMalinaText}>Bożenka Malina</Text>
@@ -91,7 +91,7 @@ const Screen10 = () => {
         <Image
           style={styles.vectorIcon1}
           resizeMode="cover"
-          source={require("../assets/vector1.png")}
+          source={require("../public/vector1.png")}
         />
       </View>
       <View style={styles.homeIndicatorView1}>
@@ -101,7 +101,7 @@ const Screen10 = () => {
       <Image
         style={styles.navBarIcon}
         resizeMode="cover"
-        source={require("../assets/nav-bar2.png")}
+        source={require("../public/nav-bar2.png")}
       />
     </View>
   );

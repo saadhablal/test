@@ -5,40 +5,40 @@ const Screen = () => {
   return (
     <View style={styles.view}>
       <Text style={styles.potemSieZobaczy}>potem sie zobaczy</Text>
-      <Image
+      {/* <Image
         style={styles.imageIcon}
         resizeMode="cover"
-        source={require("../assets/image.png")}
-      />
+        source={require("../public/image.png")}
+      /> */}
       <Text style={styles.febText}>01 Feb</Text>
       <Text style={styles.marzenaKlasaText}>Marzena Klasa</Text>
       <Text style={styles.noPracujemyZDomuPrzez5}>
         no pracujemy z domu przez 5 ...
       </Text>
-      <Image
+      {/* <Image
         style={styles.imageIcon1}
         resizeMode="cover"
-        source={require("../assets/image1.png")}
-      />
+        source={require("../public/image1.png")}
+      /> */}
       <Text style={styles.febText1}>01 Feb</Text>
       <Text style={styles.jarosawKowalskiText}>jarosław kowalski</Text>
-      <Image
+      {/* <Image
         style={styles.groupIcon}
         resizeMode="cover"
-        source={require("../assets/group.png")}
-      />
-      <Image
+        source={require("../public/group.png")}
+      /> */}
+      {/* <Image
         style={styles.imageIcon2}
         resizeMode="cover"
-        source={require("../assets/image2.png")}
-      />
+        source={require("../public/image2.png")}
+      /> */}
       <Text style={styles.marText}>18 Mar</Text>
       <Text style={styles.krysiaEurydykaText}>Krysia Eurydyka</Text>
-      <Image
+      {/* <Image
         style={styles.imageIcon3}
         resizeMode="cover"
-        source={require("../assets/image3.png")}
-      />
+        source={require("../public/image3.png")}
+      /> */}
       <View style={styles.rectangleView} />
       <View style={styles.groupView}>
         <Text style={styles.jarekkowalemailecomText}>
@@ -48,11 +48,11 @@ const Screen = () => {
         <Text style={styles.febText2}>01 Feb</Text>
         <Text style={styles.jarosawKowalskiText1}>jarosław kowalski</Text>
       </View>
-      <Image
+      {/* <Image
         style={styles.imageIcon4}
         resizeMode="cover"
-        source={require("../assets/image4.png")}
-      />
+        source={require("../public/image4.png")}
+      /> */}
       <View style={styles.groupView1}>
         <Text style={styles.howIsKoronavirus}>How is koronavirus?</Text>
         <View style={styles.rectangleView1} />
@@ -60,97 +60,97 @@ const Screen = () => {
         <Text style={styles.monText}>Mon</Text>
         <Text style={styles.krysiaEurydykaText1}>Krysia Eurydyka</Text>
       </View>
-      <Image
+      {/* <Image
         style={styles.vectorIcon}
         resizeMode="cover"
-        source={require("../assets/vector.png")}
+        source={require("../public/vector.png")}
       />
       <Image
         style={styles.groupIcon1}
         resizeMode="cover"
-        source={require("../assets/group1.png")}
-      />
+        source={require("../public/group1.png")}
+      /> */}
       <Text style={styles.willDoSuperThankYou}>Will do, super, thank you</Text>
-      <Image
+      {/* <Image
         style={styles.imageIcon5}
         resizeMode="cover"
-        source={require("../assets/image5.png")}
-      />
+        source={require("../public/image5.png")}
+      /> */}
       <Text style={styles.tueText}>Tue</Text>
       <Text style={styles.odeuszPiotrowskiText}>Odeusz Piotrowski</Text>
       <View style={styles.groupView2}>
         <Text style={styles.uploadedFileText}>Uploaded file.</Text>
-        <Image
+        {/* <Image
           style={styles.imageIcon6}
           resizeMode="cover"
-          source={require("../assets/image6.png")}
-        />
+          source={require("../public/image6.png")}
+        /> */}
         <View style={styles.rectangleView2} />
         <Text style={styles.text2}>+5</Text>
         <Text style={styles.sunText}>Sun</Text>
         <Text style={styles.boenkaMalinaText}>Bożenka Malina</Text>
       </View>
-      <Image
+      {/* <Image
         style={styles.groupIcon2}
         resizeMode="cover"
-        source={require("../assets/group2.png")}
+        source={require("../public/group2.png")}
       />
       <Image
         style={styles.rectangleIcon}
         resizeMode="cover"
-        source={require("../assets/rectangle.png")}
+        source={require("../public/rectangle.png")}
       />
       <Image
         style={styles.unionIcon}
         resizeMode="cover"
-        source={require("../assets/union.png")}
-      />
+        source={require("../public/union.png")}
+      /> */}
       <Text style={styles.boenkaMalinaText1}>
         <Text style={styles.boenkaText}>{`Bożenka `}</Text>
         <Text style={styles.malinaText}>Malina</Text>
       </Text>
-      <Image
+      {/* <Image
         style={styles.rectangleIcon1}
         resizeMode="cover"
-        source={require("../assets/rectangle1.png")}
-      />
-      <Image
+        source={require("../public/rectangle1.png")}
+      /> */}
+      {/* <Image
         style={styles.unionIcon1}
         resizeMode="cover"
-        source={require("../assets/union.png")}
-      />
+        source={require("../public/union.png")}
+      /> */}
       <Text style={styles.magdalenaPomorskaText}>
         <Text style={styles.magdalenaText}>Magdalena</Text>
         <Text style={styles.pomorskaText}>Pomorska</Text>
       </Text>
-      <Image
+      {/* <Image
         style={styles.rectangleIcon2}
         resizeMode="cover"
-        source={require("../assets/rectangle2.png")}
+        source={require("../public/rectangle2.png")}
       />
       <Image
         style={styles.unionIcon2}
         resizeMode="cover"
-        source={require("../assets/union.png")}
-      />
+        source={require("../public/union.png")}
+      /> */}
       <Text style={styles.anastazjaZiemkowskaText}>
         <Text style={styles.anastazjaText}>Anastazja</Text>
         <Text style={styles.ziemkowskaText}>Ziemkowska</Text>
       </Text>
-      <Image
+      {/* <Image
         style={styles.rectangleIcon3}
         resizeMode="cover"
-        source={require("../assets/rectangle3.png")}
-      />
+        source={require("../public/rectangle3.png")}
+      /> */}
       <Text style={styles.moenkaWalinaText}>
         <Text style={styles.moenkaText}>{`Możenka `}</Text>
         <Text style={styles.walinaText}>Walina</Text>
       </Text>
-      <Image
+      {/* <Image
         style={styles.unionIcon3}
         resizeMode="cover"
-        source={require("../assets/union3.png")}
-      />
+        source={require("../public/union3.png")}
+      /> */}
       <Text style={styles.favouritesText}>Favourites</Text>
       <View style={styles.rectangleView3} />
       <Text style={styles.searchText}>Search...</Text>
@@ -158,29 +158,29 @@ const Screen = () => {
         <View style={styles.rectangle395View} />
         <Text style={styles.text3}>+</Text>
       </View>
-      <Image
+      {/* <Image
         style={styles.groupIcon3}
         resizeMode="cover"
-        source={require("../assets/group3.png")}
-      />
+        source={require("../public/group3.png")}
+      /> */}
       <Text style={styles.martinaWolnaText}>Martina Wolna</Text>
       <View style={styles.groupView4}>
         <View style={styles.rectangleView4} />
-        <Image
+        {/* <Image
           style={styles.vectorIcon1}
           resizeMode="cover"
-          source={require("../assets/vector1.png")}
-        />
+          source={require("../public/vector1.png")}
+        /> */}
       </View>
       <View style={styles.homeIndicatorView1}>
         <View style={styles.containerView} />
         <View style={styles.homeIndicatorView} />
       </View>
-      <Image
+      {/* <Image
         style={styles.navBarIcon}
         resizeMode="cover"
-        source={require("../assets/nav-bar.png")}
-      />
+        source={require("../public/nav-bar.png")}
+      /> */}
     </View>
   );
 };
@@ -193,7 +193,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     letterSpacing: 1,
     fontWeight: "300",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
@@ -212,7 +212,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "right",
   },
@@ -223,7 +223,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
@@ -234,7 +234,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     letterSpacing: 1,
     fontWeight: "300",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
@@ -253,7 +253,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "right",
   },
@@ -264,7 +264,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
@@ -295,7 +295,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "right",
   },
@@ -306,7 +306,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
@@ -342,7 +342,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     letterSpacing: 1,
     fontWeight: "300",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
@@ -353,7 +353,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "right",
   },
@@ -364,7 +364,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "right",
   },
@@ -375,7 +375,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
@@ -401,7 +401,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     letterSpacing: 1,
     fontWeight: "300",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
@@ -429,7 +429,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "right",
   },
@@ -440,7 +440,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "right",
   },
@@ -451,7 +451,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
@@ -493,7 +493,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     letterSpacing: 1,
     fontWeight: "300",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
@@ -512,7 +512,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "right",
   },
@@ -523,7 +523,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
@@ -534,7 +534,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     letterSpacing: 1,
     fontWeight: "300",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
@@ -570,7 +570,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "right",
   },
@@ -581,7 +581,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "right",
   },
@@ -592,7 +592,7 @@ const styles = StyleSheet.create({
     fontSize: 15,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
@@ -638,7 +638,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
@@ -670,7 +670,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
@@ -702,7 +702,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
@@ -728,7 +728,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
@@ -745,7 +745,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
@@ -788,7 +788,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "right",
   },
@@ -813,7 +813,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     letterSpacing: 1,
     textTransform: "capitalize",
-    fontFamily: "Roboto",
+    //fontFamily: "Roboto",
     color: "#fff",
     textAlign: "left",
   },
